@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/admin/Development/vectgen/vectgen_v3.old/vectgen_V2.kicad_sch</source>
+    <date>Tuesday, May 23, 2023 at 07:13:00 PM</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>VECTGEN - ESP32</title>
+        <company/>
+        <rev>3</rev>
+        <date>3/10/2022</date>
+        <source>vectgen_V2.kicad_sch</source>
+        <comment number="1" value="       "/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="                    WELLS-GARDNER 15V2000 DISPLAY INTERFACE"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f79c3b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f7a294</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f7a394</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f7a410</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628256a8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062823e83</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006297b57a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006293661c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>150pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f879c4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>150pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f85db2</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f4f51d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f53417</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f34bb6</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f349e3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006291d75f</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006291f83e</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006291e92d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062922e25</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ADG201A</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="vectgen_V2-rescue" part="ADG202A-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f7bf26 00000000-0000-0000-0000-000058f2ef64 00000000-0000-0000-0000-000058f2efa6 00000000-0000-0000-0000-000058f2ef2f 00000000-0000-0000-0000-000058f2eef7</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>LF347D</value>
+      <footprint>linear2-SO14</footprint>
+      <libsource lib="vectgen_V2-rescue" part="LF347D-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f2f5e5 00000000-0000-0000-0000-000058f2f50a 00000000-0000-0000-0000-000058f2f559 00000000-0000-0000-0000-000058f2f59a 00000000-0000-0000-0000-000058f2f499</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB INTERFACE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006238514c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628469a4</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062891b3e</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>FLASH_EN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006245a62d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f44605</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f44684</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f318eb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f31d07</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>15K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f879b2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>15K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f31a40</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>30K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f879b8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>30K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f84f8f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f447b0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f31e55</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f344ce</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>27</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f4475f</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>3.3M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f4efd5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>3.3M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f513c1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f4e25a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f5128b</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="vectgen_V2-rescue" part="POT-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f44a21</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="vectgen_V2-rescue" part="POT-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f4eead</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="vectgen_V2-rescue" part="POT-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058f52315</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="vectgen_V2-rescue" part="SW_PUSH-vectgen_V2-rescue-vectgen_V2-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000593f210e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>WT32-ETH01</value>
+      <footprint>vectgen_v3.my_library:WT32-ETH01</footprint>
+      <libsource lib="vectgen_V2-rescue" part="WT32-ETH01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000628aa8c5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4922</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22250A.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4922" description="2-Channel 12-Bit D/A Converters with SPI Interface"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9c940d3-a94e-4d74-87a3-6bf8e5fa2d24</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>L4931-3.3</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2931-n.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM2931AZ-5.0_TO92" description="100mA Low drop-out regulator, Fixed Output 5V, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectgen_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bc8c68</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_DAC" part="MCP4922">
+      <description>2-Channel 12-Bit D/A Converters with SPI Interface</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22250A.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">MCP4922</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22250A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="~{CS}" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDI" type="input"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="~{LDAC}" type="input"/>
+        <pin num="9" name="~{SHDN}" type="input"/>
+        <pin num="10" name="VB" type="output"/>
+        <pin num="11" name="VrefB" type="input"/>
+        <pin num="12" name="Vss" type="power_in"/>
+        <pin num="13" name="VrefA" type="input"/>
+        <pin num="14" name="VA" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM2931AZ-5.0_TO92">
+      <description>100mA Low drop-out regulator, Fixed Output 5V, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2931-n.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2931AZ-5.0_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2931-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectgen_V2-rescue" part="ADG202A-vectgen_V2-rescue-vectgen_V2-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG202A-vectgen_V2-rescue-vectgen_V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="D1" type="bidirectional"/>
+        <pin num="3" name="S1" type="bidirectional"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="S4" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="IN4" type="input"/>
+        <pin num="9" name="IN3" type="input"/>
+        <pin num="10" name="D3" type="bidirectional"/>
+        <pin num="11" name="S3" type="bidirectional"/>
+        <pin num="13" name="VDD" type="passive"/>
+        <pin num="14" name="S2" type="bidirectional"/>
+        <pin num="15" name="D2" type="bidirectional"/>
+        <pin num="16" name="IN2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectgen_V2-rescue" part="LF347D-vectgen_V2-rescue-vectgen_V2-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LF347D-vectgen_V2-rescue-vectgen_V2-rescue</field>
+        <field name="Footprint">linear2-SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="-IN" type="input"/>
+        <pin num="10" name="+IN" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+IN" type="input"/>
+        <pin num="13" name="-IN" type="input"/>
+        <pin num="14" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectgen_V2-rescue" part="POT-vectgen_V2-rescue-vectgen_V2-rescue">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-vectgen_V2-rescue-vectgen_V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectgen_V2-rescue" part="SW_PUSH-vectgen_V2-rescue-vectgen_V2-rescue">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH-vectgen_V2-rescue-vectgen_V2-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectgen_V2-rescue" part="WT32-ETH01">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WT32-ETH01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ESP_EN" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3V3" type="power_out"/>
+        <pin num="4" name="ESP_EN" type="bidirectional"/>
+        <pin num="5" name="CFG" type="bidirectional"/>
+        <pin num="6" name="IO33(485_EN)" type="bidirectional"/>
+        <pin num="7" name="RXD2" type="bidirectional"/>
+        <pin num="8" name="TXD2" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="3V3" type="power_out"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCC_5V" type="power_in"/>
+        <pin num="13" name="LINK(ETH_LED)" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="IO2" type="bidirectional"/>
+        <pin num="16" name="IO4" type="bidirectional"/>
+        <pin num="17" name="IO35" type="bidirectional"/>
+        <pin num="18" name="1012" type="bidirectional"/>
+        <pin num="19" name="1014" type="bidirectional"/>
+        <pin num="20" name="IO15" type="bidirectional"/>
+        <pin num="21" name="IO36" type="input"/>
+        <pin num="22" name="IO39" type="input"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="IO0" type="bidirectional"/>
+        <pin num="25" name="RXD" type="bidirectional"/>
+        <pin num="26" name="TXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_DAC">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Analog_DAC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="vectgen_V2-rescue">
+      <uri>/Users/admin/Development/vectgen/vectgen_v3.old/vectgen_V2-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VCC_5V" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="2" name="+15V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="3" name="-15V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="IC2" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/BLANK">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/XAXIS">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="S4" pintype="bidirectional"/>
+      <node ref="IC2" pin="14" pinfunction="OUT" pintype="output"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/YAXIS">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="S3" pintype="bidirectional"/>
+      <node ref="IC2" pin="8" pinfunction="OUT" pintype="output"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/ZAXIS">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/~{RAMP}">
+      <node ref="IC1" pin="1" pinfunction="IN1" pintype="input"/>
+      <node ref="IC1" pin="16" pinfunction="IN2" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="CFG" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/~{ZERO}">
+      <node ref="IC1" pin="8" pinfunction="IN4" pintype="input"/>
+      <node ref="IC1" pin="9" pinfunction="IN3" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="10" pinfunction="+IN" pintype="input"/>
+      <node ref="IC2" pin="12" pinfunction="+IN" pintype="input"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="Vss" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="~{LDAC}" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="3V3" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="~{SHDN}" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="VrefB" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="VrefA" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="13" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="IC2" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="IC2" pin="7" pinfunction="OUT" pintype="output"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="-IN" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="13" pinfunction="-IN" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="9" pinfunction="-IN" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="S2" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="VA" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="+IN" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="VB" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ESP_EN" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="IO33(485_EN)" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="1014" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="IO15" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="ESP_EN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="RXD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="TXD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="LINK(ETH_LED)" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="1012" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="IO36" pintype="input+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="IO39" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
